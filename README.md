@@ -1,13 +1,13 @@
-# MSCS_634_Lab_4
-# MSCS 634 - Lab 4: Regression Analysis with Regularization
+### MSCS_634_Lab_4
+## MSCS 634 - Lab 4: Regression Analysis with Regularization
 
-## 👤 Student Name:
+### 👤 Student Name:
 Muluwork Geremew
 
-## 🎓 Course:
+### 🎓 Course:
 MSCS 634 - Advanced Big Data and Data Mining
 
-## 🧪 Lab Objective:
+### 🧪 Lab Objective:
 This lab explores various regression techniques using the **Diabetes Dataset** from `sklearn.datasets`, including:
 
 - **Simple Linear Regression**
@@ -20,16 +20,16 @@ The goal is to evaluate the performance of each model, observe the impact of reg
 
 ---
 
-## 📈 Methods & Metrics:
+### 📈 Methods & Metrics:
 
-### Regression Models Implemented:
+#### Regression Models Implemented:
 - Simple Linear Regression (with BMI)
 - Multiple Linear Regression (all features)
 - Polynomial Regression (degree 2)
 - Ridge Regression (α = 1.0)
 - Lasso Regression (α = 0.1)
 
-### Evaluation Metrics:
+#### Evaluation Metrics:
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
@@ -37,7 +37,7 @@ The goal is to evaluate the performance of each model, observe the impact of reg
 
 ---
 
-## 📊 Summary of Results:
+### 📊 Summary of Results:
 
 | Model                   | MAE    | MSE     | RMSE   | R² Score |
 |------------------------|--------|---------|--------|----------|
@@ -49,7 +49,7 @@ The goal is to evaluate the performance of each model, observe the impact of reg
 
 ---
 
-## 🔍 Key Insights:
+### 🔍 Key Insights:
 
 - **Lasso Regression** achieved the best performance, effectively balancing model complexity and generalization.
 - Adding more features (Multiple Regression) significantly improved model accuracy over using just one (`bmi`).
@@ -59,7 +59,7 @@ The goal is to evaluate the performance of each model, observe the impact of reg
 
 ---
 
-## ⚠️ Challenges Faced:
+### ⚠️ Challenges Faced:
 
 - Deciding optimal values for `alpha` in Ridge and Lasso.
 - Managing increasing feature space in Polynomial Regression without overfitting.
@@ -67,14 +67,14 @@ The goal is to evaluate the performance of each model, observe the impact of reg
 
 ---
 
-## 📂 Repository Contents:
+### 📂 Repository Contents:
 
 - `Lab4_Regression.ipynb` – Jupyter Notebook containing full code, visualizations, and markdown.
 - `README.md` – This summary file.
 
 ---
 
-## ✅ How to Run:
+### ✅ How to Run:
 
 1. Clone the repository.
 2. Open `Lab4_Regression.ipynb` in Jupyter Notebook or VS Code.
